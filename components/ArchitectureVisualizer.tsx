@@ -10,7 +10,7 @@ interface ArchitectureVisualizerProps {
 
 const ArchitectureVisualizer: React.FC<ArchitectureVisualizerProps> = ({ activeLayerId }) => {
   return (
-    <div className="w-full lg:w-1/2 h-full lg:h-[90vh] p-6 bg-slate-800 rounded-3xl shadow-2xl border border-slate-700 overflow-y-auto">
+    <div className="w-full lg:w-1/2 h-full lg:h-[90vh] p-6 bg-slate-900/50 backdrop-blur-lg rounded-3xl shadow-2xl shadow-black/50 border border-slate-700/50 overflow-y-auto">
        <div className="p-4 text-center mb-4">
         <h2 className="text-xl font-bold text-cyan-400">AI Architecture</h2>
         <p className="text-slate-400 text-sm">Real-time processing layer activation</p>

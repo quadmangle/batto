@@ -14,8 +14,8 @@ const MessageBubble: React.FC<MessageBubbleProps> = ({ text, sender }) => {
       <div className={`
         px-4 py-3 rounded-2xl max-w-md shadow-md break-words
         ${isUser
-          ? 'bg-cyan-600 text-white rounded-br-none'
-          : 'bg-slate-700 text-slate-200 rounded-bl-none'
+          ? 'bg-gradient-to-br from-purple-600 to-cyan-600 text-white rounded-br-none'
+          : 'bg-slate-800/80 text-slate-200 rounded-bl-none'
         }
       `}>
         {text}
