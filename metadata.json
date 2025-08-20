@@ -1,0 +1,5 @@
+{
+  "name": "Multi-Layered AI Chat Assistant",
+  "description": "An interactive chatbot that demonstrates a multi-layered AI architecture. Ask questions and see which processing layer is activated in real-time, from simple firewalls to complex model backends.",
+  "requestFramePermissions": []
+}
